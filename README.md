@@ -42,8 +42,8 @@ A work in progress showcasing my skills, projects, and journey as a developer.
 ## 📊 GitHub Stats ・ 活動記録
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" height="165" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=JTflores&show_icons=true&theme=tokyonight&hide_border=true" height="165" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JTflores&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top languages" />
 </p>
 
 ---

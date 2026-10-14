@@ -45,3 +45,24 @@ dots.forEach((dot) => {
     });
   });
 });
+
+const loader = document.getElementById("loader");
+const MIN_TIME = 3000; 
+const startTime = Date.now();
+
+document.body.classList.add("loading");
+
+function hideLoader() {
+  const waitTime = Math.max(0, MIN_TIME - (Date.now() - startTime));
+
+  setTimeout(() => {
+    loader.classList.add("hidden");
+    document.body.classList.remove("loading");
+  }, waitTime);
+}
+
+if (document.readyState === "complete") {
+  hideLoader();
+} else {
+  window.addEventListener("load", hideLoader);
+}

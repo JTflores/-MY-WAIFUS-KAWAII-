@@ -7,10 +7,15 @@
 
     <title>My Favorite WAIFUS</title>
 
-    <link rel="icon" type="image/png" href="waifus.png" />
+    <link rel="icon" type="image/png" href="PHOTOS/waifus (1).png" />
 
     <link rel="stylesheet" href="waifus.css" />
   </head>
+
+  <div id="loader">
+  <img src="PHOTOS/waifus.png" alt="Loading" class="loader-img" />
+  <div class="loader-bar"><span></span></div>
+</div>
 
   <body>
     <div class="navigation">
@@ -329,14 +334,18 @@
       </div>
     </section>
 
-    <a href="favorite anime.html">
-      <div class="anime-container">
-        <button class="anime-button">
-          <span class="anime-title"> 「 My Favourite Animes 」🌙 </span>
-          <span class="anime-subtitle"> ✧･ﾟ: アニメ ♡ Anime :･ﾟ✧ </span>
-        </button>
-      </div>
-    </a>
+   <section class="anime-section">
+  <video autoplay muted loop playsinline class="section-wallpaper">
+    <source src="VIDEOS/anime.mp4" type="video/mp4" />
+  </video>
+
+  <div class="section-overlay"></div>
+
+  <a href="../favorite-animes/favorite-animes.html" class="anime-button">
+    <span class="anime-title"> 「 My Favourite Animes 」🌙 </span>
+    <span class="anime-subtitle"> ✧･ﾟ: アニメ ♡ Anime :･ﾟ✧ </span>
+  </a>
+</section>
 
     <script src="waifus.js"></script>
   </body>

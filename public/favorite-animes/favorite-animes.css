@@ -31,7 +31,6 @@ body {
   z-index: 0;
 }
 
-/* Dark layer so the text stays easy to read */
 .overlay {
   position: absolute;
   inset: 0;
@@ -39,7 +38,6 @@ body {
   background: linear-gradient(90deg, rgba(0,0,0,.8), rgba(0,0,0,.35));
 }
 
-/* Giant outlined rank number, drawn in the accent color */
 .rank {
   position: relative;
   z-index: 2;

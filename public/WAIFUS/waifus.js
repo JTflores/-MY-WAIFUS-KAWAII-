@@ -47,7 +47,7 @@ dots.forEach((dot) => {
 });
 
 const loader = document.getElementById("loader");
-const MIN_TIME = 3000; 
+const MIN_TIME = 5000;
 const startTime = Date.now();
 
 document.body.classList.add("loading");
